@@ -1,1 +1,0 @@
-// Album entity model

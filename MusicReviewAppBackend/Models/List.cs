@@ -1,1 +1,0 @@
-// User-created list entity model
