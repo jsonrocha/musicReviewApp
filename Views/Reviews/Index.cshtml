@@ -1,0 +1,17 @@
+@model IEnumerable<dynamic>
+
+<h1>User Reviews</h1>
+<div class="list-group">
+	@foreach (var review in Model)
+	{
+		<div class="list-group-item">
+			<h5>@review.Album</h5>
+			<p><strong>@review.User:</strong> "@review.ReviewText"</p>
+			<p>Rating: @review.Rating/5</p>
+		</div>
+	}
+</div>
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+

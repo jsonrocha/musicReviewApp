@@ -1,12 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\css",
+      "Id": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
       "PackagePath": "staticwebassets"
     },
     {
-      "Id": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
-      "PackagePath": "staticwebassets"
+      "Id": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\stylesheets\\style.css",
+      "PackagePath": "staticwebassets\\stylesheets\\style.css"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MusicReviewApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

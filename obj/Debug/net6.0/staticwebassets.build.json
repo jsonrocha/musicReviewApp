@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HP31tSGA4dwjahVhB5IHkgFvnXUXjI+wGEgaFSyv0rU=",
+  "Hash": "F0ynZOnCJH7TvuVZ3elcdI23SZaXLbzT9uq/ZfPWZqY=",
   "Source": "MusicReviewApp",
   "BasePath": "_content/MusicReviewApp",
   "Mode": "Default",
@@ -16,27 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\css",
-      "SourceId": "MusicReviewApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\",
-      "BasePath": "_content/MusicReviewApp",
-      "RelativePath": "css#[.{fingerprint}]?",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wa0hhaaa3b",
-      "Integrity": "OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css"
-    },
     {
       "Identity": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
       "SourceId": "MusicReviewApp",
@@ -57,91 +36,30 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js"
+    },
+    {
+      "Identity": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\stylesheets\\style.css",
+      "SourceId": "MusicReviewApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\",
+      "BasePath": "_content/MusicReviewApp",
+      "RelativePath": "stylesheets/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mn71ig9325",
+      "Integrity": "Ar8A24p8lF1z5/aHAlSelyNkUoU1S0/5uHWhbiGwJWU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\stylesheets\\style.css"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "css",
-      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 03:34:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM="
-        }
-      ]
-    },
-    {
-      "Route": "css.wa0hhaaa3b",
-      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 03:34:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wa0hhaaa3b"
-        },
-        {
-          "Name": "label",
-          "Value": "css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM="
-        }
-      ]
-    },
     {
       "Route": "js",
       "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
@@ -221,6 +139,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-7g0QoZLUJDDSmc2tZiVfK4+0Lx3VclvgMfFNurxQOMo="
+        }
+      ]
+    },
+    {
+      "Route": "stylesheets/style.css",
+      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\stylesheets\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ar8A24p8lF1z5/aHAlSelyNkUoU1S0/5uHWhbiGwJWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 23:27:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ar8A24p8lF1z5/aHAlSelyNkUoU1S0/5uHWhbiGwJWU="
+        }
+      ]
+    },
+    {
+      "Route": "stylesheets/style.mn71ig9325.css",
+      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\stylesheets\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ar8A24p8lF1z5/aHAlSelyNkUoU1S0/5uHWhbiGwJWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 23:27:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mn71ig9325"
+        },
+        {
+          "Name": "label",
+          "Value": "stylesheets/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ar8A24p8lF1z5/aHAlSelyNkUoU1S0/5uHWhbiGwJWU="
         }
       ]
     }

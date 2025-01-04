@@ -1,0 +1,18 @@
+@model IEnumerable<dynamic>
+
+<h1>My Journal</h1>
+@foreach (var entry in Model)
+{
+    <div class="card mb-3">
+        <div class="card-header">
+            <h5>@entry.Title</h5>
+            <p>@entry.Date</p>
+        </div>
+        <div class="card-body">
+            <p>@entry.Content</p>
+        </div>
+    </div>
+}
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}

@@ -1,7 +1,68 @@
-
 @{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Home";
 }
 
 <h1>Welcome to MusicReviewApp</h1>
 <p>Your social platform for reviewing music.</p>
+
+<!-- Tabs -->
+<ul class="nav nav-tabs mb-3" id="homeTabs" role="tablist">
+	<li class="nav-item" role="presentation">
+		<button class="nav-link active" id="albums-tab" data-bs-toggle="tab" data-bs-target="#albums" type="button" role="tab">Albums</button>
+	</li>
+	<li class="nav-item" role="presentation">
+		<button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Reviews</button>
+	</li>
+	<li class="nav-item" role="presentation">
+		<button class="nav-link" id="lists-tab" data-bs-toggle="tab" data-bs-target="#lists" type="button" role="tab">Lists</button>
+	</li>
+	<li class="nav-item" role="presentation">
+		<button class="nav-link" id="journal-tab" data-bs-toggle="tab" data-bs-target="#journal" type="button" role="tab">Journal</button>
+	</li>
+</ul>
+
+<!-- Tab Content -->
+<div class="tab-content" id="homeTabContent">
+	<!-- Albums Tab -->
+	<div class="tab-pane fade show active" id="albums" role="tabpanel">
+		<h2>Popular Albums This Week</h2>
+		<div class="row">
+			@foreach (var album in (dynamic)ViewData["Albums"])
+			{
+				<div class="col-md-4">
+					<div class="card">
+						<img src="@album.ImageUrl" class="card-img-top" alt="@album.Name">
+						<div class="card-body">
+							<h5 class="card-title">@album.Name</h5>
+							<p class="card-text">@album.Artist</p>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+
+	<!-- Reviews Tab -->
+	<div class="tab-pane fade" id="reviews" role="tabpanel">
+		<h2>Latest Reviews</h2>
+		<ul>
+			@foreach (var review in (dynamic)ViewData["Reviews"])
+			{
+				<li><strong>@review.User:</strong> "@review.Content" for <em>@review.Album</em></li>
+			}
+		</ul>
+	</div>
+
+	<div class="tab-pane fade" id="lists" role="tabpanel">
+		<h2>Top Lists</h2>
+		<!-- Display lists dynamically -->
+	</div>
+	<div class="tab-pane fade" id="journal" role="tabpanel">
+		<h2>Latest Journal Entries</h2>
+		<!-- Display journal entries dynamically -->
+	</div>
+</div>
+
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
