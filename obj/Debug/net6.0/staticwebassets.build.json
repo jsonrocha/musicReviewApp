@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "HP31tSGA4dwjahVhB5IHkgFvnXUXjI+wGEgaFSyv0rU=",
+  "Source": "MusicReviewApp",
+  "BasePath": "_content/MusicReviewApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MusicReviewApp\\wwwroot",
+      "Source": "MusicReviewApp",
+      "ContentRoot": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\",
+      "BasePath": "_content/MusicReviewApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\css",
+      "SourceId": "MusicReviewApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\",
+      "BasePath": "_content/MusicReviewApp",
+      "RelativePath": "css#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wa0hhaaa3b",
+      "Integrity": "OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css"
+    },
+    {
+      "Identity": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
+      "SourceId": "MusicReviewApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\",
+      "BasePath": "_content/MusicReviewApp",
+      "RelativePath": "js#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "am7u8ufxu2",
+      "Integrity": "7g0QoZLUJDDSmc2tZiVfK4+0Lx3VclvgMfFNurxQOMo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css",
+      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 03:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM="
+        }
+      ]
+    },
+    {
+      "Route": "css.wa0hhaaa3b",
+      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 03:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wa0hhaaa3b"
+        },
+        {
+          "Name": "label",
+          "Value": "css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM="
+        }
+      ]
+    },
+    {
+      "Route": "js",
+      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7g0QoZLUJDDSmc2tZiVfK4+0Lx3VclvgMfFNurxQOMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 03:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7g0QoZLUJDDSmc2tZiVfK4+0Lx3VclvgMfFNurxQOMo="
+        }
+      ]
+    },
+    {
+      "Route": "js.am7u8ufxu2",
+      "AssetFile": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7g0QoZLUJDDSmc2tZiVfK4+0Lx3VclvgMfFNurxQOMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 03:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "am7u8ufxu2"
+        },
+        {
+          "Name": "label",
+          "Value": "js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7g0QoZLUJDDSmc2tZiVfK4+0Lx3VclvgMfFNurxQOMo="
+        }
+      ]
+    }
+  ]
+}

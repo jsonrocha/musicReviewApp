@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MusicReviewApp/css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"30"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 05 Jan 2025 03:34:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MusicReviewApp/css.wa0hhaaa3b">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wa0hhaaa3b"},{"Name":"integrity","Value":"sha256-OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM="},{"Name":"label","Value":"_content/MusicReviewApp/css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022OKsRUjFoCnOLS/iiIFH0x2W9h5SECn6sspqWkJExnqM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 05 Jan 2025 03:34:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MusicReviewApp/js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7g0QoZLUJDDSmc2tZiVfK4\u002B0Lx3VclvgMfFNurxQOMo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"29"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00227g0QoZLUJDDSmc2tZiVfK4\u002B0Lx3VclvgMfFNurxQOMo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 05 Jan 2025 03:34:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MusicReviewApp/js.am7u8ufxu2">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"am7u8ufxu2"},{"Name":"integrity","Value":"sha256-7g0QoZLUJDDSmc2tZiVfK4\u002B0Lx3VclvgMfFNurxQOMo="},{"Name":"label","Value":"_content/MusicReviewApp/js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00227g0QoZLUJDDSmc2tZiVfK4\u002B0Lx3VclvgMfFNurxQOMo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 05 Jan 2025 03:34:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
