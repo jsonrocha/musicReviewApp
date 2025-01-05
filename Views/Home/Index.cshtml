@@ -27,7 +27,7 @@
 	<div class="tab-pane fade show active" id="albums" role="tabpanel">
 		<h2>Popular Albums This Week</h2>
 		<div class="row">
-			@foreach (var album in (dynamic)ViewData["Albums"])
+		@* 	@foreach (var album in (dynamic)ViewData["Albums"])
 			{
 				<div class="col-md-4">
 					<div class="card">
@@ -38,7 +38,7 @@
 						</div>
 					</div>
 				</div>
-			}
+			} *@
 		</div>
 	</div>
 
@@ -46,10 +46,10 @@
 	<div class="tab-pane fade" id="reviews" role="tabpanel">
 		<h2>Latest Reviews</h2>
 		<ul>
-			@foreach (var review in (dynamic)ViewData["Reviews"])
+@* 			@foreach (var review in (dynamic)ViewData["Reviews"])
 			{
 				<li><strong>@review.User:</strong> "@review.Content" for <em>@review.Album</em></li>
-			}
+			} *@
 		</ul>
 	</div>
 

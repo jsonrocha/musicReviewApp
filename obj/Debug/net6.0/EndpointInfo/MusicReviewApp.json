@@ -1,0 +1,185 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MusicReviewApp",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Albums": {
+      "get": {
+        "tags": [
+          "Albums"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Albums"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Albums/{id}": {
+      "get": {
+        "tags": [
+          "Albums"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HomeApi/albums": {
+      "get": {
+        "tags": [
+          "HomeApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Journal": {
+      "get": {
+        "tags": [
+          "Journal"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Journal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Lists": {
+      "get": {
+        "tags": [
+          "Lists"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Lists"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reviews": {
+      "get": {
+        "tags": [
+          "Reviews"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Reviews"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

@@ -1,28 +1,40 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MusicReviewApp.Controllers
+namespace MusicReviewApp.Api.Controllers
 {
-    public class ListsController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ListsController : ControllerBase
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult GetLists()
         {
             var lists = new[]
             {
                 new
                 {
+                    Id = 1,
                     Name = "Best Albums of 2025",
                     Creator = "John Doe",
                     Albums = new[] { "Album 1", "Album 2", "Album 3" }
                 },
                 new
                 {
+                    Id = 2,
                     Name = "Top 10 Summer Jams",
                     Creator = "Jane Smith",
                     Albums = new[] { "Album A", "Album B", "Album C" }
                 }
             };
 
-            return View(lists);
+            return Ok(lists);
+        }
+
+        [HttpPost]
+        public IActionResult AddList([FromBody] dynamic list)
+        {
+            // Example logic to save the list (you'll replace this with real DB logic)
+            return CreatedAtAction(nameof(GetLists), new { id = 3 }, list);
         }
     }
 }
