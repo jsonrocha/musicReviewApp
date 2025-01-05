@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\musicReviewApp\\musicReviewApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\models\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:models\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\musicReviewApp\\musicReviewApp\\MusicReviewAppBackend\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MusicReviewAppBackend\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\models\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:models\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\api\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:api\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\musicReviewApp\\musicReviewApp\\MusicReviewAppBackend\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MusicReviewAppBackend\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C45DE5DA-1005-42FC-835A-117C6508DEB5}|MusicReviewApp.csproj|c:\\musicreviewapp\\musicreviewapp\\api\\controllers\\journalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,17 +133,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T00:03:50.488Z",
               "IsPinned": true,
@@ -131,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\MusicReviewAppBackend\\Startup.cs",
               "RelativeDocumentMoniker": "MusicReviewAppBackend\\Startup.cs",
@@ -143,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -157,13 +177,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext.cs",
               "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\AppDbContext.cs",
               "RelativeToolTip": "AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T18:30:42.157Z",
               "IsPinned": true,
@@ -171,33 +191,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
+              "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:40:09.144Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T18:30:13.771Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T17:47:34.3Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Journal.cs",
+              "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Models\\Journal.cs",
+              "RelativeDocumentMoniker": "Models\\Journal.cs",
+              "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Models\\Journal.cs",
+              "RelativeToolTip": "Models\\Journal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:39:20.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "CustomList.cs",
+              "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Models\\CustomList.cs",
+              "RelativeDocumentMoniker": "Models\\CustomList.cs",
+              "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Models\\CustomList.cs",
+              "RelativeToolTip": "Models\\CustomList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:39:05.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:38:20.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "Models\\Album.cs",
+              "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Models\\Album.cs",
+              "RelativeToolTip": "Models\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:38:00.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "JournalController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\JournalController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\JournalController.cs",
@@ -205,25 +291,24 @@
               "RelativeToolTip": "Api\\Controllers\\JournalController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T23:39:17.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:39:17.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AlbumsController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\AlbumsController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\AlbumsController.cs",
               "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\AlbumsController.cs",
               "RelativeToolTip": "Api\\Controllers\\AlbumsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T23:33:41.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "HomeApiController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\HomeApiController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\HomeApiController.cs",
@@ -231,12 +316,11 @@
               "RelativeToolTip": "Api\\Controllers\\HomeApiController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T22:39:03.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:39:03.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ReviewsController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\ReviewsController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\ReviewsController.cs",
@@ -244,12 +328,11 @@
               "RelativeToolTip": "Api\\Controllers\\ReviewsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T23:36:42.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:36:42.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ListsController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\ListsController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\ListsController.cs",
@@ -257,25 +340,23 @@
               "RelativeToolTip": "Api\\Controllers\\ListsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T23:38:18.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:38:18.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\musicReviewApp\\musicReviewApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBZwCAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAACBjwCAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T22:56:28.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:56:28.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Views\\Journal\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Journal\\Index.cshtml",
@@ -283,12 +364,11 @@
               "RelativeToolTip": "Views\\Journal\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T23:39:46.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:39:46.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Views\\Albums\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Albums\\Index.cshtml",
@@ -296,12 +376,11 @@
               "RelativeToolTip": "Views\\Albums\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T23:34:32.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:34:32.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Api\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\HomeController.cs",
@@ -309,12 +388,11 @@
               "RelativeToolTip": "Api\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T23:57:38.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:57:38.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -322,12 +400,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T22:49:50.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:49:50.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Views\\Reviews\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Reviews\\Index.cshtml",
@@ -335,12 +412,11 @@
               "RelativeToolTip": "Views\\Reviews\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T23:37:28.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:37:28.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\Views\\Lists\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Lists\\Index.cshtml",
@@ -348,12 +424,11 @@
               "RelativeToolTip": "Views\\Lists\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T23:38:47.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:38:47.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "style.css",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\stylesheets\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\stylesheets\\style.css",
@@ -361,12 +436,11 @@
               "RelativeToolTip": "wwwroot\\stylesheets\\style.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-04T23:10:04.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:10:04.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
@@ -374,12 +448,11 @@
               "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "ViewState": "AgIAAL0AAAAAAAAAAAAjwNUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-04T22:46:29.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:46:29.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -390,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -398,12 +471,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-04T22:40:35.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T22:40:35.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "js",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\wwwroot\\js",
               "RelativeDocumentMoniker": "wwwroot\\js",
@@ -411,12 +483,11 @@
               "RelativeToolTip": "wwwroot\\js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-04T23:08:59.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T23:08:59.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\MusicReviewAppBackend\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MusicReviewAppBackend\\Views\\Shared\\_Layout.cshtml",
@@ -427,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\MusicReviewAppBackend\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MusicReviewAppBackend\\Views\\Home\\Index.cshtml",
@@ -438,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\musicReviewApp\\musicReviewApp\\MusicReviewAppBackend\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MusicReviewAppBackend\\Controllers\\HomeController.cs",

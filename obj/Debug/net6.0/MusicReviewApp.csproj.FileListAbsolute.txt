@@ -9,6 +9,7 @@ C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\MusicReviewApp.dll
 C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\MusicReviewApp.pdb
 C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\Humanizer.dll
 C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
 C:\musicReviewApp\musicReviewApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll

@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using MusicReviewApp.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -10,6 +12,13 @@ namespace MusicReviewApp.Api.Controllers
     [Route("api/auth")]
     public class AuthController : ControllerBase
     {
+        private readonly UserManager<User> _userManager;
+
+        public AuthController(UserManager<User> userManager)
+        {
+            _userManager = userManager;
+        }
+
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
@@ -21,6 +30,32 @@ namespace MusicReviewApp.Api.Controllers
             }
 
             return Unauthorized();
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] User registerModel)
+        {
+            if (registerModel == null)
+            {
+                return BadRequest("Invalid user data.");
+            }
+
+            // Check if username or email already exists
+            var existingUser = await _userManager.FindByEmailAsync(registerModel.Email);
+            if (existingUser != null)
+            {
+                return BadRequest("Email already in use.");
+            }
+
+            // Create user
+            var result = await _userManager.CreateAsync(registerModel, registerModel.Password);
+
+            if (!result.Succeeded)
+            {
+                return BadRequest(result.Errors);
+            }
+
+            return Ok("User registered successfully.");
         }
 
         private string GenerateJwtToken(string username)
