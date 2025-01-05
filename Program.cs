@@ -1,13 +1,46 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
+using MusicReviewApp;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = "Server=localhost;Database=MusicReviewApp;Trusted_Connection=True;";
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddControllers(); // Support for API controllers
 builder.Services.AddEndpointsApiExplorer(); // Enable endpoint discovery for Swagger
 builder.Services.AddSwaggerGen(); // Add Swagger services
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString)); 
+
+// Authentication
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = "YourIssuer", // Replace with your app's issuer
+        ValidAudience = "YourAudience", // Replace with your app's audience
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey")) // Replace with a secure key
+    };
+});
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
